@@ -4,7 +4,7 @@
   "description": "Hangout hovering on top of the screen",
   "main": "index.js",
   "bin": {
-    "floating-hangout": "run.js"
+    "floating-hangout": "floating-hangout.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

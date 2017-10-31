@@ -5,8 +5,8 @@ const { resolve } = require("path");
 
 const cmd = [
   resolve(__dirname, "node_modules", ".bin", "electron"),
-  resolve(__dirname), "main.js",
+  resolve(__dirname, "main.js"),
   process.argv.slice(2).join(" "),
 ].join(" ");
 
-console.log(cmd);
+execSync(cmd, {stdio: "inherit"});

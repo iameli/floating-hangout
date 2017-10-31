@@ -23,15 +23,13 @@ app.on("ready", () => {
     win = null
   })
 
-  console.log(process.argv)
-
   // Load a remote URL
-  win.loadURL('https://hangouts.google.com/hangouts/_/i6gnba6x4vb3dkt3vtmbduppo4e?hl=en');
+  win.loadURL(hangoutUrl);
 
   const show = () => {
     win.webContents.executeJavaScript(`
       document.body.style.opacity = 1;
-      // document.body.style.backgroundColor = "transparent";
+      document.body.style.backgroundColor = "black";
       document.body.style.webkitAppRegion = "drag";
     `);
     win.setIgnoreMouseEvents(false);
@@ -40,7 +38,7 @@ app.on("ready", () => {
   const hide = () => {
     win.webContents.executeJavaScript(`
       document.body.style.opacity = 0.75;
-      // document.body.style.backgroundColor = "transparent";
+      document.body.style.backgroundColor = "transparent";
     `);
     win.setIgnoreMouseEvents(true);
   }
