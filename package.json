@@ -1,6 +1,6 @@
 {
   "name": "floating-hangout",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Hangout hovering on top of the screen",
   "main": "index.js",
   "bin": {
