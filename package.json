@@ -1,0 +1,32 @@
+{
+  "name": "floating-hangout",
+  "version": "1.0.0",
+  "description": "Hangout hovering on top of the screen",
+  "main": "index.js",
+  "bin": {
+    "floating-hangout": "run.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iameli/floating-hangout.git"
+  },
+  "keywords": [
+    "Hangout",
+    "Floating",
+    "On",
+    "The",
+    "Screen"
+  ],
+  "author": "Eli Mallon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iameli/floating-hangout/issues"
+  },
+  "homepage": "https://github.com/iameli/floating-hangout#readme",
+  "dependencies": {
+    "electron": "^1.7.9"
+  }
+}
