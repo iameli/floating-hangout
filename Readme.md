@@ -8,3 +8,12 @@ Option+Cmd+Shift+Ctrl+F freezes the window and reduces its opacity
 and allows you to click through it.
 
 That's it.
+
+## Development
+
+Clone the repo, then...
+
+```
+npm install
+npm run dev http://test-url/
+```

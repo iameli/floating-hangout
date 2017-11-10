@@ -7,7 +7,8 @@
     "floating-hangout": "floating-hangout.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -x ./floating-hangout.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,8 @@
   "homepage": "https://github.com/iameli/floating-hangout#readme",
   "dependencies": {
     "electron": "^1.7.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   }
 }
